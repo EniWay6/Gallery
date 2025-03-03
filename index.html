@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Електронний альбом природи</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,8 +9,8 @@
     <h1>Електронний альбом природи</h1>
     <nav>
         <ul>
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="about.html">Про мене</a></li>
+            <li><a href="index.html" class="active">Головна</a></li>
+            <li><a href="about.html">Про нас</a></li>
             <li><a href="gallery.html">Галерея</a></li>
             <li><a href="contact.html">Контакти</a></li>
         </ul>
@@ -21,16 +18,41 @@
 </header>
 
 <main>
-    <section class="card">
-        <h2>Ласкаво просимо!</h2>
-        <p>Цей сайт створений для демонстрації краси природи. Перегляньте нашу галерею та дізнайтеся більше про нас.</p>
-        <img src="images/home.jpg" alt="Природа" style="width: 100%; border-radius: 10px;">
+    <section class="intro">
+        <h2>Вітаємо у світі природи! 🌿</h2>
+        <p>Досліджуйте красу природи та дізнавайтесь, чому важливо її берегти.</p>
+        <img src="images/home.jpg" alt="Красива природа">
     </section>
+
+    <section class="info-block">
+        <h2>Чому важливо берегти природу?</h2>
+        <p>Природа — це наш дім. Вона забезпечує нас чистим повітрям, водою та ресурсами для життя.</p>
+        <ul>
+            <li>🌍 Охорона довкілля допомагає зберегти біорізноманіття.</li>
+            <li>💧 Чиста вода — основа здорового життя.</li>
+            <li>🌱 Рослини очищують повітря і створюють кисень.</li>
+        </ul>
+    </section>
+
+    <section class="video-block">
+        <h2>Дивіться відео про природу 🌎</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KJwYBJMSbPI" 
+            title="Відео про природу" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    
 </main>
 
 <footer>
     <p>Електронний альбом природи</p>
+    <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+    </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
