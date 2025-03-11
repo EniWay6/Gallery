@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     margin: 0;
     padding: 0;
     background: linear-gradient(180deg, #e3f2fd, #a5d6a7); 
@@ -182,8 +182,8 @@ section {
 }
 
 .intro img {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 80%;
     object-fit: cover; 
     object-position: center; 
     border-radius: 15px; 
@@ -226,3 +226,30 @@ footer .social-links a:hover {
     color: #a5d6a7;
 }
 
+@media (max-width: 768px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .card-container {
+      flex-direction: column;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .button {
+      width: 100%;
+    }
+  }
+  
